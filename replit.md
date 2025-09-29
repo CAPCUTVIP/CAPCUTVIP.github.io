@@ -55,7 +55,7 @@ This is a React-based website for downloading CapCut Pro APK with premium featur
 - Updated Navigation component to use React Router Links
 - Added all missing routes to App.tsx
 - Downloaded CapCutPro.zip (2.6MB) from GitHub releases to public/downloads/
-- Updated all download links to use local file (/downloads/CapCutPro.zip)
+- Updated all download links to use local file (dist/downloads/CapCutPro.zip)
 - Configured Vite config for GitHub Pages deployment at CAPCUTVIP.github.io
 - Added allowedHosts: true for Replit proxy compatibility
 - Successfully tested build process and verified all pages working

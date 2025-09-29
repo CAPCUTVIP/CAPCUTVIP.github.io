@@ -83,9 +83,12 @@ const CapCutPro = () => {
             <Button 
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-4 text-lg shadow-hero"
+              asChild
             >
-              <Download className="w-5 h-5 mr-2" />
-              Download Now (317 MB)
+              <a href="dist/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5 mr-2" />
+                Download Now (317 MB)
+              </a>
             </Button>
           </div>
         </div>
@@ -161,9 +164,11 @@ const CapCutPro = () => {
             </CardContent>
           </Card>
           
-          <Button size="lg" className="shadow-primary">
-            <Download className="w-5 h-5 mr-2" />
-            Download CapCut Pro APK
+          <Button size="lg" className="shadow-primary" asChild>
+            <a href="dist/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
+              <Download className="w-5 h-5 mr-2" />
+              Download CapCut Pro APK
+            </a>
           </Button>
         </div>
       </section>

@@ -83,7 +83,7 @@ export const Navigation = () => {
           {/* Download Button */}
           <div className="hidden md:block">
             <Button variant="default" size="sm" className="shadow-primary" asChild>
-              <a href="/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
+              <a href="dist/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
                 <Download className="w-4 h-4 mr-2" />
                 Download
               </a>
@@ -123,7 +123,7 @@ export const Navigation = () => {
               })}
               <div className="pt-2">
                 <Button variant="default" size="sm" className="w-full shadow-primary" asChild>
-                  <a href="/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
+                  <a href="dist/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
                     <Download className="w-4 h-4 mr-2" />
                     Download
                   </a>

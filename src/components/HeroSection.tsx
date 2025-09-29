@@ -75,7 +75,7 @@ export const HeroSection = () => {
               className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-4 text-lg shadow-hero"
               asChild
             >
-              <a href="/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
+              <a href="dist/downloads/CapCutPro.zip" target="_blank" rel="noopener noreferrer">
                 <Download className="w-5 h-5 mr-2" />
                 Download APK (317 MB)
               </a>
