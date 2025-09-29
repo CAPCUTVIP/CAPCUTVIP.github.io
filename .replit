@@ -6,9 +6,15 @@ expertMode = true
 channel = "stable-25_05"
 
 [deployment]
-deploymentTarget = "autoscale"
-run = ["npm", "run", "preview"]
 build = ["npm", "run", "build"]
+run = ["npm", "run", "preview"]
+deploymentTarget = "static"
+publicDir = "dist"
+ignorePorts = false
+
+[[deployment.rewrites]]
+from = "/*"
+to = "/index.html"
 
 [workflows]
 runButton = "Project"

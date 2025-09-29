@@ -36,8 +36,8 @@ jobs:
       - name: Setup SPA fallback for React Router
         run: |
           cp dist/index.html dist/404.html
-          echo 'capcutvip.github.io' > dist/CNAME
           touch dist/.nojekyll
+          echo "/* /index.html 200" > dist/_redirects
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
