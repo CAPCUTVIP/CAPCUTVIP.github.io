@@ -14,6 +14,8 @@ export default defineConfig(({ mode }) => ({
     strictPort: true,
     // Add SPA fallback configuration
     historyApiFallback: true,
+    // Enable all hosts for Replit proxy
+    allowedHosts: true,
   },
 
   build: {

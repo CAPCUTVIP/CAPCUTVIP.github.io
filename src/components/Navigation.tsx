@@ -11,7 +11,8 @@ import {
   FileText,
   Shield,
   Menu,
-  X
+  X,
+  Home
 } from "lucide-react";
 
 export const Navigation = () => {
